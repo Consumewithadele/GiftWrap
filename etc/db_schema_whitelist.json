@@ -1,0 +1,12 @@
+{
+    "sales_order": {
+        "column": {
+            "gift_wrap_required": true
+        }
+    },
+    "quote": {
+        "column": {
+            "gift_wrap_required": true
+        }
+    }
+}

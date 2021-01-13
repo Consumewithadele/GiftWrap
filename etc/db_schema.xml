@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+  <table name="sales_order" resource="default">
+    <column xsi:type="varchar" name="gift_wrap_required" nullable="true" length="255" comment="Gift wrap required"/>
+  </table>
+  <table name="quote" resource="checkout" comment="Sales Flat Quote">
+    <column xsi:type="varchar" name="gift_wrap_required" nullable="true" length="255" comment="Gift wrap required"/>
+  </table>
+</schema>
